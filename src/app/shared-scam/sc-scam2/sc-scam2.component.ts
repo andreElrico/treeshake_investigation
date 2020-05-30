@@ -23,7 +23,6 @@ export class ScScam2Component implements OnInit {
 }
 
 @NgModule({
-  bootstrap: [ScScam2Component],
   declarations: [ScScam2Component],
   imports: [
     CommonModule,
