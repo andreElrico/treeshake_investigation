@@ -10,6 +10,10 @@ import { ScScam2Module } from './sc-scam2/sc-scam2.component';
     CommonModule,
     ScScam1Module,
     ScScam2Module,
+  ],
+  exports: [
+  	ScScam1Module,
+    ScScam2Module,
   ]
 })
 export class SharedScamModule { }
